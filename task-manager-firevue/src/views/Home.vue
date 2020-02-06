@@ -1,18 +1,18 @@
 <template>
   <div class="private">
     <img alt="Vue logo" src="../assets/logo.png">
-    <Private msg="Welcome to Your Vue.js App"/>
+    <login></login>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-    import Private from '@/components/Private.vue'
+    import login from '@/components/login.vue'
 
     export default {
       name: 'home',
       components: {
-        Private,
+        login,
       }
     }
 </script>
